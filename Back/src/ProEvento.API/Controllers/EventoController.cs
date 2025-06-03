@@ -53,7 +53,7 @@ namespace ProEvento.API.Controllers
         [HttpPost]
         public string Post()
         {
-            return "Exemplo de Post01";
+            return "Exemplo de Post";
         }
         [HttpPut("{id}")]
         public string Put(int id)
